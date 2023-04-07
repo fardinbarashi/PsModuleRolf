@@ -1,6 +1,16 @@
 ﻿Function Remove-InactiveAccounts {
-    <#
-    .SYNOPSIS
+<#
+ System requirements
+ PSVersion                      5.1.19041.2364                                                                                                       
+ PSEdition                      Desktop                                                                                                              
+ PSCompatibleVersions           {1.0, 2.0, 3.0, 4.0...}                                                                                              
+ BuildVersion                   10.0.19041.2364                                                                                                      
+ CLRVersion                     4.0.30319.42000                                                                                                      
+ WSManStackVersion              3.0                                                                                                                  
+ PSRemotingProtocolVersion      2.3                                                                                                                  
+ SerializationVersion           1.1.0.1      
+
+   .SYNOPSIS
     Removes user accounts that have not been used in a specified number of days.
 
     .DESCRIPTION
@@ -14,10 +24,14 @@
     Removes user accounts that have not been used in the last 90 days.
 
     .NOTES
-    Author: [Your Name]
-    Date: [Date]
-    Version: 2.0
-    #>
+Author :Fardin Barashi Fardin.barashi@gmail.com
+Title : PsModuleRolf
+Version : 1
+Release day : 2023-04-07
+Github Link  : https://github.com/fardinbarashi
+News : 
+
+#>
 
     [CmdletBinding()]
     param (
